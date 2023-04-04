@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+h1 { color: rgb(255, 0, 43);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body { color: rgb(8, 8, 8); background-image: url(img/paisaje.jpg); padding: 150px ;
+
+
+}
+header { background-color: aqua;
+    text-align: right; padding: 5%;
+
+}

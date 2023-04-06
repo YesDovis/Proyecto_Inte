@@ -1,3 +1,17 @@
+nav{
+    font-size: 40px;
+
+}
+
+p {color: #f1f1ee;
+   font-size: 26px;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+
+h2{
+    font-size: 50px;
+}
 body {
     text-align: center;
 }
@@ -13,5 +27,47 @@ body { color: rgb(8, 8, 8); background-image: url(img/paisaje.jpg); padding: 150
 }
 header { background-color: aqua;
     text-align: right; padding: 5%;
+
+}
+
+.form-register{
+width: 200px ;
+background: #2a0b7e;
+padding: 40px;
+margin: auto;
+margin-top: 100px;
+border-radius: 6%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+}
+
+.form-register h4 {
+font-size: 22px;
+margin-bottom: 28px;
+}
+
+.controls{
+width: 100%; ;
+background-color: #dfdbe9;
+padding:10px;
+border-radius:4px;
+margin bottom:16px;
+border 1px solidcolor
+}
+.comando{
+    width: 100%;
+    height: 68px;
+    background-color: #f3ebeb;
+    padding:10px;
+    border-radius:14px;
+    position: relative;
+    margin bottom:22px;
+    border 3px
+    }
+.form-register .botons{
+width: 100%;
+background-color: #c02b82;
+border: none;
+padding: 10px;
 
 }

@@ -21,53 +21,114 @@ h1 { color: rgb(255, 0, 43);
 
 }
 
-body { color: rgb(8, 8, 8); background-image: url(img/paisaje.jpg); padding: 150px ;
+h3{ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 10cap;
+}
+
+body { color: rgb(8, 8, 8); background-color: rgb(39, 176, 185); padding: 150px ;
 
 
 }
-header { background-color: aqua;
+header { background-color: rgb(244, 255, 255);
     text-align: right; padding: 5%;
 
 }
 
 .form-register{
-width: 200px ;
-background: #2a0b7e;
-padding: 40px;
+width:80% ;
+background: linear-gradient(ski rgb(69, 177, 204),blue);
+padding: 30px;
+font: 100;
 margin: auto;
 margin-top: 100px;
 border-radius: 6%;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: white;
+color: rgb(6, 29, 236);
 }
 
 .form-register h4 {
 font-size: 22px;
 margin-bottom: 28px;
-}
+} 
 
 .controls{
 width: 100%; ;
-background-color: #dfdbe9;
+background-color: #e9e0db;
 padding:10px;
 border-radius:4px;
-margin bottom:16px;
-border 1px solidcolor
+margin-bottom:16px;
+border: 1px;
 }
-.comando{
+.comando {
     width: 100%;
-    height: 68px;
-    background-color: #f3ebeb;
+    height: 85px;
+    background-color: #e9e0db;
     padding:10px;
     border-radius:14px;
     position: relative;
-    margin bottom:22px;
-    border 3px
-    }
+    margin-bottom:22px;
+    border:3px;
+}
+
 .form-register .botons{
-width: 100%;
-background-color: #c02b82;
+width: 40%;
+background-color: #e78d06;
+position:relative;right: 30%;
 border: none;
 padding: 10px;
+}
+
+
+.form-control{
+    
+    background-color: #2fe90a;
+}
+
+.alinear {
+width: 250px;
+height: 250px;
+margin: 0 5px;
+}
+
+.conteiner{
+ display: flex;
+ justify-content: center;
 
 }
+
+@media (max-whit:900px) {
+    .conteiner{
+        flex-direction: column;
+        align-items: center;}
+
+}
+
+.alinear {
+    margin-bottom:10px;
+}
+
+#iddatalistOptions{
+    background-color: #4c1ad3;
+}
+
+
+.form {
+    background-color: rgb(29, 184, 29);
+    font-size: medium;
+    margin-bottom: 20px;
+  
+    padding: 20px;
+  }
+  
+  #step-1{background: #f1ecec;
+  
+  }
+  
+  #step-2 {
+    display: none;
+  }
+  
+  #summary {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
